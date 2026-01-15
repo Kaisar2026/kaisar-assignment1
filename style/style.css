@@ -4,6 +4,7 @@
     height: auto;
     margin: 0 auto;
     background-color: rgb(241, 235, 235);
+    
 }
 
 *{
@@ -13,7 +14,7 @@
 }
 
 /* shared class start */
-.nav-container{
+.nav-container {
     width: 80%;
     width: 1600px;
     max-width: 1600px;
@@ -24,7 +25,6 @@
     border: 1px solid blue;
 }
 
-/* shared class start */
 nav {
     max-width: 1600px;
     height: auto;
@@ -51,10 +51,6 @@ nav {
 .container .heading3 {
     font-size: 9px;
     text-align: center;
-}
-
-.nav-selection container {
-
 }
 
 .nav-selection .image {
@@ -92,4 +88,91 @@ nav {
     color: white;
     border-radius: 10px;
     border: none;
+}
+
+/* Banner Section Start */
+
+#banner{
+    width: 1600px;
+    max-width: 1600px;
+    height: 674px;
+    background-image: url(../assets/hero-bg.png);
+}
+
+#banner #container {
+    backdrop-filter: blur(10px);
+}
+
+.banner-h3-container {
+    padding: 155px 0 16px 0;
+}
+.banner-h3-container h3 {
+    width: 229px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+    background-color: white ;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.banner-h2-container {
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.h2-first h2 {
+    color: white;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.h2-second {
+    color: green;
+    font-weight: 700;
+    font-weight: bold;
+    }   
+
+.h3-paragraph p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(217, 207, 207);
+}
+
+.banner-h2-container .btn-container button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    width: 251px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    gap: 10px;
+    margin-top: 32px;
+    padding: 10px 16px 16px 16px;
+}
+
+.banner-h2-container .btn-container .color-btn3 {
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.5s all ease;
+}
+
+.banner-h2-container .btn-container .color-btn3:hover{
+    background-color: green;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
